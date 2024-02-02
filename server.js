@@ -86,14 +86,14 @@ app.delete('/api/user/:username', function (req, res) {
             let buffer = new Buffer.from(userDataStringifyCleaned)
             console.log(userDataStringifyCleaned);
             console.log(buffer);
-            /*
-                        fs.writeFile('./data/users.json', buffer, { encoding: 'utf8', flag: 'w' }, function (err) {
-                            if (err) {
-                                console.log('Cant write to file');
-                            } else {
-                                console.log('New file edited©');
-                            }
-                        })*/
+
+            fs.writeFile('./data/users.json', buffer, { encoding: 'utf8', flag: 'w' }, function (err) {
+                if (err) {
+                    console.log('Cant write to file');
+                } else {
+                    console.log('New file edited©');
+                }
+            })
         }
 
     }

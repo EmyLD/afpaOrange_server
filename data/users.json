@@ -4,7 +4,14 @@
         "password": "dradoke",
         "username": "dradoke"
     },
-    {}
-,
-     {"username":"elna","email":"elna@gmail.com","password":"elna"}
-      ]
+    {
+        "email": "jordan@gmail.com",
+        "password": "jordan",
+        "username": "jordan"
+    },
+    {
+        "email": "caca@gmail.com",
+        "password": "caca",
+        "username": "caca"
+    }
+]
