@@ -1,12 +1,10 @@
 [
     {
         "email": "dradoke@gmail.com",
-        "password": "dradoke03",
-        "username": "Dradoke"
+        "password": "dradoke",
+        "username": "dradoke"
     },
-    {
-        "email": "benteh@gmail.com",
-        "password": "benteh",
-        "username": "Benteh"
-    }
-]
+    {}
+,
+     {"username":"elna","email":"elna@gmail.com","password":"elna"}
+      ]
